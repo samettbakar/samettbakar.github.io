@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samet Bakar | AI Solutions Architect | Supply Chain & Commercial Planning</title>
+<meta name="description" content="I bring 10+ years of planning depth to AI workflows built to run inside the operation, with people kept on the decisions a model should not make alone.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Samet Bakar | AI Solutions Architect | Supply Chain & Commercial Planning">
+<meta property="og:description" content="I bring 10+ years of planning depth to AI workflows built to run inside the operation, with people kept on the decisions a model should not make alone.">
+<meta property="og:url" content="https://samettbakar.github.io/">
+<meta property="og:image" content="https://samettbakar.github.io/assets/og-image.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+<div class="wrap hero-grid">
+<div class="hero-text">
+<h1>Samet Bakar</h1>
+<p class="role">AI Solutions Architect | Supply Chain &amp; Commercial Planning</p>
+<p class="lead"><strong>I bring 10+ years of planning depth to AI workflows built to run inside the operation, with people kept on the decisions a model should not make alone.</strong></p>
+</div>
+<img class="photo" src="assets/photo.webp" alt="Line drawing portrait of Samet Bakar" width="320" height="320">
+</div>
+<div class="wrap">
+<ul class="stats">
+<li><span class="num">~62%</span>
+<span class="desc">of ~40,000 units of excess stock cleared in four months</span></li>
+<li><span class="num">95–105%</span>
+<span class="desc">weekly actual-to-forecast, every store</span></li>
+<li><span class="num">60% → 71%</span>
+<span class="desc">gross margin across 40 stores</span></li>
+</ul>
+<p class="note"><em>Planning track record from 10+ years in retail and FMCG; this is the base my AI work builds on.</em></p>
+<nav aria-label="Sections" class="cta"><a href="#selected-ai-work">Selected AI Work</a> · <a href="#experience">Experience</a> · <a href="#contact">Contact</a></nav>
+<p class="cta"><a class="btn" href="assets/Samet_Bakar_AI_Portfolio_EN.pdf" download>Download CV</a></p>
+</div>
+</header>
+<main>
+<section id="about"><div class="wrap">
+<h2>About</h2>
+<p>I have spent 10+ years in demand planning, allocation and pricing, from a 35-country international business at LC Waikiki to a 62-store retail group. That is where I learned where forecasts break, and where human judgment has to stay in charge: markdown depth, an export deal, what to do with 40,000 units of excess stock. I build AI around those points: approval-gated agents, and measurement of forecast error, bias and FVA. My way of working is forward-deployed: I sit next to the team that owns the problem and build the solution where it runs.</p>
+</div></section>
+
+<section id="what-i-do"><div class="wrap">
+<h2>What I do</h2>
+<p><strong>AI use-case discovery and business case.</strong> I walk the process with the people who run it, find where the decision data is weak, and rank use cases by cash impact and risk before anything is built.</p>
+<p><strong>Agent and workflow automation.</strong> I design multi-agent systems and automated workflows (Claude Code) with clear roles, lighter models for routine steps and a reviewer step before anything leaves the system.</p>
+<p><strong>AI for planning and forecasting.</strong> Time-series forecasting with error, bias and Forecast Value Added (FVA) measurement, so a team sees what each step of its forecasting process contributes.</p>
+<p><strong>Human-in-the-loop governance and EU compliance.</strong> Evidence trails and checkpoints where a person decides; working on AI-assisted CBAM and EmpCo (EU green claims) workflows.</p>
+</div></section>
+
+<section id="how-i-work"><div class="wrap">
+<h2>How I work</h2>
+<p><em>My delivery approach, forward-deployed.</em></p>
+<ol>
+<li><strong>Listen on site.</strong> I sit with the people who own the problem and map how decisions are made today.</li>
+<li><strong>Find the break.</strong> I locate where forecasts and data fail and which decisions need a human.</li>
+<li><strong>Build in place.</strong> I build the workflow inside the existing tools and routines.</li>
+<li><strong>Run and measure.</strong> I run it with the team, track error and value added, and adjust.</li>
+</ol>
+</div></section>
+
+<section id="selected-ai-work"><div class="wrap">
+<h2>Selected AI Work</h2>
+<p><em>Each case: problem, what I built, stage.</em></p>
+
+<article class="card">
+<h3>1. SENSE: a multi-agent personal assistant</h3>
+<ul>
+<li><strong>Problem:</strong> Working with AI costs time because context has to be explained again every session, and unattended agents can act without approval.</li>
+<li><strong>What I built:</strong> A multi-agent system on Claude Code. A main agent routes each request to a specialist subagent (career, EU compliance, business ideas); a separate reviewer agent checks every output before delivery. One rulebook governs all agents; nothing is deleted or sent without human approval; routine tasks go to lighter models.</li>
+<li><strong>Stack:</strong> Claude Code, Markdown rule files, GitHub.</li>
+<li><strong>Status:</strong> Running; I use it for my own work. The public repo holds the project description and rulebook; agent definitions and personal data stay private.</li>
+<li><strong>My role:</strong> Sole designer and builder.</li>
+<li><strong>Link:</strong> <a href="https://github.com/samettbakar/sense">github.com/samettbakar/sense</a> (README and rulebook, in Turkish)</li>
+</ul>
+</article>
+
+<article class="card">
+<h3>2. Forecast error, bias and FVA measurement</h3>
+<ul>
+<li><strong>Problem:</strong> Planners override statistical forecasts often; without measurement, no one knows whether those overrides help.</li>
+<li><strong>What I built:</strong> A time-series forecasting skill, an automated monitoring step and an FVA table that measures model error and bias.</li>
+<li><strong>Stack:</strong> AI-assisted time-series forecasting, FVA method, anonymized womenswear data.</li>
+<li><strong>Status:</strong> Built; being applied to an anonymized womenswear case.</li>
+<li><strong>My role:</strong> Method design and build.</li>
+</ul>
+</article>
+
+<article class="card">
+<h3>3. AI Markdown &amp; Clearance Simulator</h3>
+<ul>
+<li><strong>Problem:</strong> Excess stock has four exits (sell, transfer, discount, export) and each one returns different cash.</li>
+<li><strong>What I built:</strong> A simulator that splits excess stock by SKU across those four routes and shows the cash each pricing scenario returns.</li>
+<li><strong>Stack:</strong> AI-assisted tool; the clearance logic comes from my own practice (see Brooks Brothers).</li>
+<li><strong>My role:</strong> Sole designer and builder.</li>
+</ul>
+</article>
+
+<article class="card">
+<h3>4. EU compliance: CBAM data bridge and EmpCo green-claims audit</h3>
+<ul>
+<li><strong>Problem:</strong> EU importers now ask their non-EU suppliers, including Turkish exporters, for verifiable embedded-emissions data (CBAM definitive period since 1 Jan 2026), and environmental claims must be substantiated under EmpCo (Directive (EU) 2024/825, applies from 27 Sep 2026). Both need evidence work, not just advice.</li>
+<li><strong>What I built:</strong> Two service designs with AI-assisted workflows: for CBAM, facility data preparation and verifier-ready evidence files; for EmpCo, claim inventory, risk rating, rewrite suggestions and an evidence checklist. Neither gives legal opinions, verification or guarantees. Legal review stays outside scope.</li>
+<li><strong>Stack:</strong> AI-assisted workflows, official EU sources (European Commission, EUR-Lex).</li>
+<li><strong>Status:</strong> Design complete; market validation planned.</li>
+<li><strong>My role:</strong> Researcher and service designer; delivery planned FDE-style, on site with the client's data.</li>
+</ul>
+</article>
+
+<p><strong>Also on GitHub:</strong> <a href="https://github.com/samettbakar/supply-chain-case">supply-chain-case</a> holds two apparel strategy cases: a DTC womenswear strategy (Brand-X) and an operating-model strategy (TGIF).</p>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+
+<article class="job">
+<h3>Independent Practice | Catalant — AI Solutions Architect</h3>
+<p class="meta"><em>Aug 2026 – Present · Freelance on Catalant's expert marketplace; Istanbul and remote</em></p>
+<ul>
+<li>Designed and built SENSE, my own multi-agent system.</li>
+<li>Built a time-series forecasting skill and measured forecast error and bias with an FVA table, comparing AI forecasts with planner overrides.</li>
+<li>Designed AI-assisted EU CBAM and EmpCo compliance workflows focused on emissions data and evidence preparation.</li>
+</ul>
+</article>
+
+<article class="job">
+<h3>Ecrou Group — Supply Planning Manager</h3>
+<p class="meta"><em>Apr 2025 – Nov 2025 · 62-store retail group: apparel, personal care, beauty, out-of-home</em></p>
+<ul>
+<li>Built a capacity and demand model for all 62 stores from scratch; it became the base of weekly planning and Power BI.</li>
+<li>Converted ~11,000 units to cash through discount and campaign plans run with e-commerce, reviewed weekly with the CEO.</li>
+<li>Reported category variances to the CEO: knitwear profit ran 10% over budget; woven recovered a 5% gap in one period.</li>
+<li>Led a three-person planning team and set its reporting standard in SAP and Excel.</li>
+<li><em>AI angle:</em> one data model behind every weekly decision, the foundation a planning agent needs first.</li>
+</ul>
+</article>
+
+<article class="job">
+<h3>Brooks Brothers — Category Planning Manager &amp; Key Account Management</h3>
+<p class="meta"><em>Aug 2024 – Dec 2024 · Premium apparel brand; inventory recovery and margin repair</em></p>
+<ul>
+<li>Cleared ~62% of ~40,000 units of six-season excess stock in four months, from product selection to shipment.</li>
+<li>Opened an export channel to a buyer in Jordan through my own network and closed a deal for 6,000–7,000 units.</li>
+<li>Priced against mark-up targets and competitors with the CEO, lifting a zero-margin season to 10–15% average profit.</li>
+<li>Managed Boyner (consignment and joint business plan), Trendyol and Hepsiburada.</li>
+<li><em>AI angle:</em> the sell / transfer / discount / export choice my Clearance Simulator models.</li>
+</ul>
+</article>
+
+<article class="job">
+<h3>LC Waikiki — International Demand Planning Manager &amp; Store Merchandiser</h3>
+<p class="meta"><em>Jan 2019 – Aug 2024 · Global fast-fashion retailer; MENA, Africa, Southeast Asia, LATAM, Europe</em></p>
+<ul>
+<li>Served as main planning contact for headquarters, stores and suppliers in 35 countries; delivered 100+ store openings.</li>
+<li>Forecast every store weekly and kept actual-to-forecast within 95–105%.</li>
+<li>Raised mark-up from 2.5x to 3.5x across 40 stores in Greece and Bulgaria, moving gross margin from 60% to 71%.</li>
+<li>Cut idle stock 60% (15,000 to 6,000 units) using replenishment, transfer and markdown scenarios.</li>
+<li>Acted as key user and business owner in the SAP migration, from requirements to go-live; ran four A3 projects as Scrum Master.</li>
+<li><em>Alongside, 2020–2023:</em> advised a global FMCG brand's distributor on a €2.6M territory with ~1,550 points of sale, 48 people and ~12% volume growth.</li>
+<li><em>AI angle:</em> weekly forecasting at scale shows where models break.</li>
+</ul>
+</article>
+</div></section>
+
+<section id="toolkit"><div class="wrap">
+<h2>Toolkit</h2>
+<p><strong>AI and automation:</strong> Claude Code · multi-agent design · workflow automation · prompt engineering · human-in-the-loop controls · GitHub</p>
+<p><strong>Planning and analytics:</strong> demand planning · S&amp;OP · inventory optimization · allocation · markdown and pricing · forecast accuracy, bias and FVA · A3 problem solving</p>
+<p><strong>Systems and data:</strong> SAP ERP · SAP IBP · o9 (Academy, in progress) · Blue Yonder (JDA) · Nebim V3 · Power BI · advanced Excel · basic SQL</p>
+<p><strong>Regulation:</strong> EU CBAM · EU EmpCo (Directive 2024/825)</p>
+<p><strong>Delivery:</strong> Scrum · change management · stakeholder alignment · C-level reporting · remote and international teams</p>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education &amp; Certifications</h2>
+<ul>
+<li>Bachelor's, Energy Systems Engineering, Yalova University, 2019</li>
+<li>Bachelor's, Business Administration, Anadolu University, 2018 (studied concurrently)</li>
+<li>o9 Academy, Functional Associate (2026, in progress) · Professional Problem Solver (2019) · Strategic Management (2018)</li>
+</ul>
+<h2 class="sub">Languages</h2>
+<p>Turkish (native) · English (advanced) · Spanish (beginner)</p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Contact</h2>
+<ul>
+<li>Email: <a href="mailto:samettbakar@gmail.com">samettbakar@gmail.com</a></li>
+<li>LinkedIn: <a href="https://linkedin.com/in/sametbakar">linkedin.com/in/sametbakar</a></li>
+<li>GitHub: <a href="https://github.com/samettbakar">github.com/samettbakar</a></li>
+<li>Istanbul, Türkiye · open to remote and international work</li>
+</ul>
+</div></section>
+</main>
+</body>
+</html>
