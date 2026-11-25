@@ -31,6 +31,9 @@ h2{color:var(--text);font-size:1.7rem;margin:0 0 16px;padding-bottom:6px;border-
 h2.sub{margin-top:28px}
 h3{color:var(--text);font-size:1.15rem;margin:0 0 8px}
 .card,.job{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent2);border-radius:6px;padding:16px 20px;margin:20px 0}
+.status-tag{display:inline-block;vertical-align:middle;margin-left:6px;border:1px solid var(--accent2);border-radius:999px;padding:2px 8px;font-size:.72rem;font-weight:700;line-height:1.4;text-transform:lowercase}
+.status-design{background:rgba(103,156,188,.16)}
+.status-in-progress{background:rgba(193,23,32,.10);border-color:var(--accent);color:var(--accent)}
 .job .meta{margin:0 0 8px;font-size:.95rem;color:var(--muted)}
 ul,ol{padding-left:22px}
 li{margin:6px 0}
